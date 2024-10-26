@@ -7,7 +7,7 @@
     Открыть главную страницу игры https://codebattle.hexlet.io/
     Иметь аккаунт на GitHub
   test-data: |
-    Данные для входа в аккаунт GitHub (логин и пароль)
+    Email: test@example.com, Пароль: password123
   steps:
     - Кликнуть на кнопку регистрации "Sign up"
     - Зарегистрироваться с помощью кнопки "Sign in with Github"
@@ -22,7 +22,7 @@
     Открыть главную страницу игры https://codebattle.hexlet.io/
     Иметь аккаунт в Discord
   test-data: |
-    Данные для входа в аккаунт Discord (логин и пароль)
+    Email: test@example.com, Пароль: password123
   steps:
     - Кликнуть на кнопку регистрации "Sign up"
     - Зарегистрироваться с помощью кнопки "Sign in with Discord"
@@ -37,7 +37,7 @@
   prerequisites: |
     Открыть главную страницу игры https://codebattle.hexlet.io/
   test-data: |
-     Имя пользователя: validuser, Email: test@example.com, Пароль: password123, Подтверждение пароля: password123
+     Имя пользователя: validuser, Email: testt@example.com, Пароль: password123, Подтверждение пароля: password123
   steps:
     - Кликнуть на кнопку регистрации "Sign up"
     - Ввести имя пользователя в поле "Nickname"
